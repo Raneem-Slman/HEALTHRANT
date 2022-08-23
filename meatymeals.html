@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HEALTHRANT-Meaty meals</title>
+   <link rel="stylesheet" type="text/css" href="css/cap1.css">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+   <script src="https://kit.fontawesome.com/0e158106b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="content">
+     <header>
+   	<div id="navb">
+   	<nav>
+   	  <i id="icon1" class="fa-solid fa-burger fa-3x" ></i>
+   	  <a href="index.html" >Home</a>
+        <a href="vegetarianmeals.html" >Vegetarian meals</a>
+        <a href="meatymeals.html" class="active">Meaty meals</a>
+        <a href="adress.html" >Adress</a>
+        <a href="contactus.html" >Contct us</a>
+   	
+   </nav>
+   </div>
+   </header>
+  <div class="table-responsive">
+         <table class="table table-striped table-bordered table-hover ">
+           <tr><th>Meal Name</th><th>Price</th><th>Add to my order</th></tr>
+           <tr ><td >Alambre</td><td>100SP</td><td><input type="radio" name="choice1"> yes     <input type="radio" name="choice1"> no</td></tr>
+           <tr><td>Bakso </td><td>100SP</td><td><input type="radio" name="choice2"> yes     <input type="radio" name="choice2"> no</td></tr>
+           <tr><td>Bandeja paisa  </td><td>100SP</td><td><input type="radio" name="choice3"> yes     <input type="radio" name="choice3"> no</td></tr>
+           <tr><td>Beef chow fun </td><td>100SP</td><td><input type="radio" name="choice4"> yes     <input type="radio" name="choice4"> no</td></tr>
+           <tr><td>Beef on weck </td><td>100SP</td><td><input type="radio" name="choice5"> yes     <input type="radio" name="choice5"> no</td></tr>
+         </table>
+      </div>
+
+
+   <div class="adress">
+      <form>
+      <fieldset>
+         <legend>Client Information</legend>
+            <p><label><span>your adress : </span><input type="text" name="your adress" id="adress" required></label></p>
+
+            <span> how do you want to pay   </span> <br><br><input type="checkbox" id="cash" name="pay"/>
+            <label >Do you want to pay cash?</label><br><br> 
+            <input type="checkbox" id="cred" name="pay" />
+            <label >Do you want to pay by your credit card?</label>
+
+            <br>
+            <p><label><span>confirm my order </span><input type="submit" name="confirmation" id="confirmation"></label>  </p>
+      </fieldset>
+         </form>
+   </div>
+
+
+   </div> 
+
+   <footer class="footer"><div class="container ">Copyright &copy; Your Website 2022</div></footer>
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

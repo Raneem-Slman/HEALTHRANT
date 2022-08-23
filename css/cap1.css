@@ -1,0 +1,148 @@
+nav{width: 100%;
+  background-color:#9b111e;
+}
+
+nav a{
+	  color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%; 
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+}
+
+a:hover{
+	background-color: #bda685;
+}
+
+#first{
+  width: 60%;
+  line-height: 350%;
+  text-align: center;
+  font-size: 25px;
+   margin: 0 auto;
+}
+
+#second{
+  width: 60%;
+  margin: 0 auto;
+  line-height: 350%;
+  text-align: center;
+
+}
+
+.active{
+  background-color: rgb(255,255,255,0.5);
+  color: gold;
+}
+
+.content{
+   width:100% ;
+   min-height: calc(100vh - 70px);
+   text-align: center;
+}
+
+.footer {
+  height: 50px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #9b111e;
+  padding-top: 1%;
+ }
+
+section{
+  margin: 0 auto;
+}
+
+#mylight{
+  text-align: center;
+  width: 90%;
+  margin: 5% auto;
+}
+
+#mylight img{
+  margin-top: 3% ;
+}
+
+span{
+  font-size: 20px;
+}
+
+.adress{
+  margin: 4% auto;
+}
+
+
+/*oh here*/
+@media screen and (min-width :480px)
+{.carousel { width:480px; height:360px;
+margin: 0 auto;}
+}
+
+  @media screen and (min-width :768px)
+{.carousel { width:750px; height:500px;
+margin: 0 auto;}}
+
+  @media screen and (min-width :992px)
+{.carousel { width:950px; height:700px;
+margin: 0 auto;}}
+
+  @media screen and (min-width :1200px)
+{.carousel { width:1150px; height:800px;
+margin: 0 auto;}}
+
+.content1{
+  min-height: calc(100vh - 60px);
+  background: url("../images/imagesk.png");
+  /*background-color: #ffffaa;*/
+}
+
+#contact-section{
+  margin: 8% auto;
+}
+
+.card1{width: 25%;
+  margin-left: 2%;
+  margin-right: 7%;
+  margin-top: 5%;
+  display: inline-block;
+  border: 2px solid ;
+  padding: 3%;
+  border-radius: 10%;
+  background-color: #ffffff;
+}
+.card2{width: 25%;
+   margin-right: 7%;
+   margin-top: 5%;
+   border: 2px solid ;
+  display: inline-block;
+  padding: 3%;
+  border-radius: 10%;
+  background-color: #ffffff;
+}
+.card3{width: 25%;
+   margin-right: 7%;
+   margin-top: 5%;
+   border: 2px solid ;
+  display: inline-block;
+  padding: 3%;
+  border-radius: 10%;
+  background-color: #ffffff;
+}
+
+h4{
+  padding-bottom: 2%;
+  text-decoration: underline ;
+}
+.para{
+  padding: 2%;
+}
+.table-responsive{
+  margin-top: 3%;}
+
+#icon1{
+  float: left;
+  margin-top: 1%;
+  color: #ffffff;
+}
